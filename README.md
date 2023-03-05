@@ -46,4 +46,8 @@ Side Projact 를 위한 React Native 학습
   
 >> ### React Life Cycle
 >> -----------
->> Constructor -> Render -> ComponentDidMount -> ComponentWillUnmount
+>> Constructor ->  
+>> Render ->  
+>> ComponentDidMount  
+>> &&   
+>> ComponentWillUnmount
