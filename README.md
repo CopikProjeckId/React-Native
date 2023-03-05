@@ -73,6 +73,25 @@ Side Projact 를 위한 React Native 학습
 
 >> ### DeepLink
 >> -----------
->>> 특정 URL 을 누르게 되면 지정한 화면으로 이동 하는 것
->>> 앱마다 유효한 scheme 을 가지고 있는 것
-  
+>>> 특정 URL 을 누르게 되면 지정한 화면으로 이동 하는 것  
+>>> 앱마다 유효한 scheme 을 가지고 있는 것  
+
+>> ### Action
+>> -----------
+>>> 화면 이동에 대한 명령어 를 담고 있는 Object
+>>> ```
+>>> type : 어떤 작업인지 나타내는 식별자
+>>> payload : 추가 정보가 포함되어 있음. (parameter)
+>>>
+>>> Common Action
+>>> > navigate : 특정 화면으로 이동하는 action
+>>> > reset : 현재 상태를 지정한 상태로 변경 해주는 action
+>>> > goback : 이전 History 로 이동하는 action 
+>>>
+>>> Stack Action
+>>> > push : Array.push 와 동일
+>>> > pop : Array.pop 과 동일
+>>>
+>>> Tap Action
+>>> > jumpTo : 탭간 이동시 사용
+>>> ```
