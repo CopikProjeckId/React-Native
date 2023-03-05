@@ -1,5 +1,6 @@
 import React from "react";
 import { View } from "react-native";
+import { Typography } from "./Typography";
 
 export class Badge extends React.Component{
     render() {
@@ -21,7 +22,7 @@ export class Badge extends React.Component{
                             right: -5,
                             top: -5
                         }]}>
-
+                            <Typography fontSize={this.props.fontSize} color={'white'}>N</Typography>
                     </View>
                 </View>
             </View>

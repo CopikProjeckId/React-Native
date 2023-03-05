@@ -1,14 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Badge } from './src/components/atom/Badge';
+import { Button } from './src/components/atom/Button';
+import { Divider } from './src/components/atom/Divider';
 import { Icon } from './src/components/atom/Icons';
 import { LocalImage } from './src/components/atom/LocalImage';
 import { RemoteImage } from './src/components/atom/RemoteImage';
+import { Spacer } from './src/components/atom/Spacer';
 import { Typography } from './src/components/atom/Typography';
+import { TabIcon } from './src/components/Molcule/TapIcon';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Typography color='red' fontSize={18}> 
+
+      <TabIcon name='home' visibles={true}/>
+      
+      <TabIcon name='home' visibles={false}/>
+      {/* <Typography color='red' fontSize={18}> 
         이것은 
         <Typography color='blue' fontSize={24}> 
           텍스트
@@ -20,8 +29,33 @@ export default function App() {
       <RemoteImage uri = {`https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80`} 
       width = {150} height = {100}/>
 
+      <Divider></Divider>
       <Icon name = 'home' size={40} color='blue'></Icon>
-      <StatusBar style="auto" />
+
+      <View style={{flexDirection: 'row'}}>
+        <Badge fontSize={10}>
+          <Typography>BADGE</Typography>
+        </Badge>
+        <Badge fontSize={5}>
+        <Icon name = 'home' size={50} color='black'></Icon>
+        </Badge>
+      </View>
+
+      <Spacer space = {20}></Spacer>
+
+      <View style={{flexDirection: 'row'}}>
+        <Button onPress={()=>{
+          console.log('BTN PRESSED');
+        }}>
+          <Typography> TEXT BUTTON </Typography>
+        </Button>
+
+        <Button onPress={()=>{
+          console.log('BTN PRESSED');
+        }}>
+          <Icon name = 'home' size={40} color='blue'></Icon>
+        </Button>
+      </View> */}
     </View>
   );
 }

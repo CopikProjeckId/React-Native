@@ -132,7 +132,11 @@ Side Projact 를 위한 React Native 학습
 >> Dumb Component : 보여주는 일에만 집중 - Show View Not option
 >> Smart Component : 상태를 가지고 스스로 변함 - Show View is Option Set
 >>```
->>> 
+>>> ### Compound Component Pattern
+>>>```
+>>> Component 에 (암시적으로 상태를 공유하는)  
+>>> 선언적 Sub Component API를 제공하는 방법이다.
+>>>```
 
 
 
