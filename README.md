@@ -109,3 +109,7 @@ Side Projact 를 위한 React Native 학습
  - UI를 재사용 가능한 개별적인 여러 조각으로 나누고, 각 조각을 개별적으로 나누어 코딩한다.  
 ```
 #### 잘 만들어진 Component 란?
+- Why Create Components?  
+> 재사용을 위한 Create
+>> Component 화 하지 않고 제작시 code 의 양이 방대해져 유지보수 난이도 증가  
+>> 너무 잦은 컴포넌트 화 는 예상하지 못한 변경점이 생겨 버그로 이어짐
