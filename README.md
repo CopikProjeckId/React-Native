@@ -95,3 +95,5 @@ Side Projact 를 위한 React Native 학습
 >>> Tap Action
 >>> > jumpTo : 탭간 이동시 사용  
 >>> ```
+
+*****
