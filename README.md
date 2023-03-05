@@ -13,5 +13,6 @@ Side Projact 를 위한 React Native 학습
 >> React-Navigation 의 구성요소
 >>> Navigator + Screen
 >>> ------------
->>> Navigator : Navigtion 이 어떤 구조로 되어있는지 나타내는 Component < Screen 의 집합 > \n
+>>> Navigator : Navigtion 이 어떤 구조로 되어있는지 나타내는 Component < Screen 의 집합 > 
+
 >>> Screen: View Droing Component
