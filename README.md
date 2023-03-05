@@ -1,4 +1,4 @@
-[MarkDown 작성법](https://www.markdownguide.org/, "git URL")
+[MarkDown 작성법](https://www.markdownguide.org/)
 
 # React Native
 Side Projact 를 위한 React Native 학습
