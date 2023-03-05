@@ -133,3 +133,10 @@ Side Projact 를 위한 React Native 학습
 >> Smart Component : 상태를 가지고 스스로 변함 - Show View is Option Set
 >>```
 >>> 
+
+
+
+
+*****
+> ## 기타
+> [Ionicons]('https://ionic.io/ionicons')
