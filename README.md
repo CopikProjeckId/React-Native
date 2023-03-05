@@ -114,6 +114,10 @@ Side Projact 를 위한 React Native 학습
 > ```
 > Component 화 하지 않고 제작시 code 의 양이 방대해져 유지보수 난이도 증가  
 > 너무 잦은 컴포넌트 화 는 예상하지 못한 변경점이 생겨 버그로 이어짐
+>
+> Component 는 언제 만들어서 재사용 하는가
+> - 제일 작은 단위는 우선적으로 Component 로 만들어 재사용
+> - Molcule 이상의 단계들중 3회 이상 반복사용시 Component 화
 > ```
 > *****
 > ### Atomic Design Pattern
@@ -128,3 +132,4 @@ Side Projact 를 위한 React Native 학습
 >> Dumb Component : 보여주는 일에만 집중 - Show View Not option
 >> Smart Component : 상태를 가지고 스스로 변함 - Show View is Option Set
 >>```
+>>> 
