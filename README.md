@@ -35,7 +35,7 @@ Side Projact 를 위한 React Native 학습
 >>> Stack Nativgator : JavaScript 로 작성, 자유도 높음  
 >>> Native Stack Navigator : Native <java or Kotlin> 작성 자유도 낮음  
 >>>  
->>> Presentation : Stack Navigator Screnn Options  
+>>> Presentation : Stack Navigator Screnn Option  
 >>> > Stack Navigator 에서 Move View Animation 에 대한 설정 Option  
 >>>  
 >>> > Card : Right to Left Move Animation  
@@ -53,6 +53,14 @@ Side Projact 를 위한 React Native 학습
 >>> 가장 흔하게 App 에서 볼 수 있는 UI
 >>> 기본적으로 하단에 탭의 형태로 제공
 >>> Material UI 를 통해서 제공하는 별도 UI 제공
->>> ( Meterial Buttom Tabs Navigator, Meterial Top Tabs Navigator )
+>>> ( Meterial Buttom Tabs Navigator, Meterial Top Tabs Navigator )  
+>>>   
+>>> Back Behavior : Tap Navigator Screen Option
+>>> > Andorid 에서 H/W Back Button 을 눌렀을때 어떻게 이동 하는지 정하는 Option
+>>>  
+>>> > firstRoute : 선언상 제일 처음에 있는 Top 으로 이동  
+>>> > initialRoute : 최초 지정한 Top 으로 이동  
+>>> > order : Top 을 선언한 순 으로 이동  
+>>> > history : 이동한 History 역순 이동  
 >>> ```
   
