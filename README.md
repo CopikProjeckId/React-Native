@@ -93,5 +93,5 @@ Side Projact 를 위한 React Native 학습
 >>> > pop : Array.pop 과 동일
 >>>
 >>> Tap Action
->>> > jumpTo : 탭간 이동시 사용
+>>> > jumpTo : 탭간 이동시 사용  
 >>> ```
