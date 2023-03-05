@@ -1,5 +1,5 @@
-[MarkDown 작성법](https://www.markdownguide.org/)
-
+[MarkDown Docs](https://www.markdownguide.org/)
+[MarkDown 한글 설명서](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 # React Native
 Side Projact 를 위한 React Native 학습
 --------------------------------------
