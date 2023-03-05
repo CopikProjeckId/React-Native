@@ -3,7 +3,13 @@
 # React Native
 Side Projact 를 위한 React Native 학습
 --------------------------------------
-
+>> ### React Life Cycle
+>> -----------
+>> Constructor ->  
+>> Render ->  
+>> ComponentDidMount ->  
+>> ComponentWillUnmount
+  
 ### React Navigation
 
 #### React-Native 에서 사용하는 화면 이동을 위한 라이브러리
@@ -28,6 +34,12 @@ Side Projact 를 위한 React Native 학습
 >>>
 >>> Stack Nativgator : JavaScript 로 작성, 자유도 높음  
 >>> Native Stack Navigator : Native <java or Kotlin> 작성 자유도 낮음  
+>>>  
+>>> Presentation : Stack Navigator Screnn Options  
+>>> > Stack Navigator 에서 Move View Animation 에 대한 설정 Option  
+>>>  
+>>> > Card : Right to Left Move Animation  
+>>> > Modal : Bottom to Top Move Animation
 >>> ```
 >>>
 >>> #### Drawer NAvigator :  
@@ -44,9 +56,3 @@ Side Projact 를 위한 React Native 학습
 >>> ( Meterial Buttom Tabs Navigator, Meterial Top Tabs Navigator )
 >>> ```
   
->> ### React Life Cycle
->> -----------
->> Constructor ->  
->> Render ->  
->> ComponentDidMount ->  
->> ComponentWillUnmount
