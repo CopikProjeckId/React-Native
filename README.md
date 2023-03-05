@@ -119,3 +119,7 @@ Side Projact 를 위한 React Native 학습
 > ### Atomic Design Pattern
 >> 작은단위 부터 큰 단위까지   
 >> Component 를 조합해 만들어가는 Design Pattern  
+>>> #### 단위 구조
+>>```
+>> Atoms -> Molecules -> Organisms -> Templates -> Pages
+>>```
