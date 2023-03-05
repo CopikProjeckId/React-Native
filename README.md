@@ -48,6 +48,5 @@ Side Projact 를 위한 React Native 학습
 >> -----------
 >> Constructor ->  
 >> Render ->  
->> ComponentDidMount  
->> &&   
+>> ComponentDidMount ->  
 >> ComponentWillUnmount
