@@ -29,11 +29,17 @@ Side Projact 를 위한 React Native 학습
 >>> Stack Nativgator : JavaScript 로 작성, 자유도 높음  
 >>> Native Stack Navigator : Native <java or Kotlin> 작성 자유도 낮음  
 >>> ```
-
-
+>>>
 >>> #### Drawer NAvigator :  
 >>> ```
 >>> 슬라이드 를 통해서 이동할 Screen 들 을 나타내는 Navigator
 >>> Drawer 에 대한 Open, Close, Toggle 등 기본적인 기능들을 함수로 제공
 >>> Gmail, LinkedIn 등 에서 사용
+>>> ```
+>>> #### TAB NAvigator :  
+>>> ```
+>>> 가장 흔하게 App 에서 볼 수 있는 UI
+>>> 기본적으로 하단에 탭의 형태로 제공
+>>> Material UI 를 통해서 제공하는 별도 UI 제공
+>>> ( Meterial Buttom Tabs Navigator, Meterial Top Tabs Navigator )
 >>> ```
