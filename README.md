@@ -1,4 +1,4 @@
-[MarkDown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601, "git URL")
+[MarkDown 작성법]('https://gist.github.com/ihoneymon/652be052a0727ad59601', "git URL")
 
 # React Native
 Side Projact 를 위한 React Native 학습
@@ -13,5 +13,5 @@ Side Projact 를 위한 React Native 학습
 >> React-Navigation 의 구성요소
 >>> Navigator + Screen
 >>> ------------
->>> Navigator : Navigtion 이 어떤 구조로 되어있는지 나타내는 Component < Screen 의 집합 >
+>>> Navigator : Navigtion 이 어떤 구조로 되어있는지 나타내는 Component < Screen 의 집합 > \n
 >>> Screen: View Droing Component
