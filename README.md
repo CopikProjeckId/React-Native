@@ -10,5 +10,8 @@ Side Projact 를 위한 React Native 학습
 [React-Navigation](https://reactnavigation.org, "HomePage Link")
 
 > Stack, BottomTap, Drawer 등 앱 개발시 많이 사용하는 화면 이동에 대해 각 플랫폼 환경에 맞도록 쉽게 변환 해 준다.
-
-
+>> React-Navigation 의 구성요소
+>>> Navigator + Screen
+---------------------
+Navigator : Navigtion 이 어떤 구조로 되어있는지 나타내는 Component < Screen 의 집합 >
+Screen: View Droing Component
