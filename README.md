@@ -1,4 +1,4 @@
-[MarkDown 작성법]('https://gist.github.com/ihoneymon/652be052a0727ad59601', "git URL")
+[MarkDown 작성법](https://www.markdownguide.org/, "git URL")
 
 # React Native
 Side Projact 를 위한 React Native 학습
