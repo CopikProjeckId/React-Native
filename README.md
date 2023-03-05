@@ -116,6 +116,6 @@ Side Projact 를 위한 React Native 학습
 > 너무 잦은 컴포넌트 화 는 예상하지 못한 변경점이 생겨 버그로 이어짐
 > ```
 > *****
-> #### Atomic Design Pattern
+> ### Atomic Design Pattern
 >> 작은단위 부터 큰 단위까지   
 >> Component 를 조합해 만들어가는 Design Pattern  
