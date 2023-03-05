@@ -70,4 +70,9 @@ Side Projact 를 위한 React Native 학습
 >>> 주로 Presentation 을 다르게 선언하거나, 
 >>> 조건에 따라 Navigator 의 분기가 필요할때 사용
 >>> ```
+
+>> ### DeepLink
+>> -----------
+>>> 특정 URL 을 누르게 되면 지정한 화면으로 이동 하는 것
+>>> 앱마다 유효한 scheme 을 가지고 있는 것
   
