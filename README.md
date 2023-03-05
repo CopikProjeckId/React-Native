@@ -43,3 +43,6 @@ Side Projact 를 위한 React Native 학습
 >>> Material UI 를 통해서 제공하는 별도 UI 제공
 >>> ( Meterial Buttom Tabs Navigator, Meterial Top Tabs Navigator )
 >>> ```
+  
+>> React Life Cycle
+>>
