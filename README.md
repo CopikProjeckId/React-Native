@@ -126,5 +126,5 @@ Side Projact 를 위한 React Native 학습
 >>> #### Dumb component VS Smart Component
 >>```
 >> Dumb Component : 보여주는 일에만 집중
-Smart Component : 상태를 가지고 스스로 변함
+>> Smart Component : 상태를 가지고 스스로 변함
 >>```
