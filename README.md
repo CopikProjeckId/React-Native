@@ -139,4 +139,4 @@ Side Projact 를 위한 React Native 학습
 
 *****
 > ## 기타
-> [Ionicons]('https://ionic.io/ionicons')
+> [Ionicons](https://ionic.io/ionicons)
