@@ -42,13 +42,13 @@ Side Projact 를 위한 React Native 학습
 >>> > Modal : Bottom to Top Move Animation
 >>> ```
 >>>
->>> #### Drawer NAvigator :  
+>>> #### Drawer Navigator :  
 >>> ```
 >>> 슬라이드 를 통해서 이동할 Screen 들 을 나타내는 Navigator
 >>> Drawer 에 대한 Open, Close, Toggle 등 기본적인 기능들을 함수로 제공
 >>> Gmail, LinkedIn 등 에서 사용
 >>> ```
->>> #### TAB NAvigator :  
+>>> #### TAB Navigator :  
 >>> ```
 >>> 가장 흔하게 App 에서 볼 수 있는 UI
 >>> 기본적으로 하단에 탭의 형태로 제공
@@ -62,5 +62,12 @@ Side Projact 를 위한 React Native 학습
 >>> > initialRoute : 최초 지정한 Top 으로 이동  
 >>> > order : Top 을 선언한 순 으로 이동  
 >>> > history : 이동한 History 역순 이동  
+>>> ```
+>>> #### 번외 Nesting Navigator :  
+>>> ```
+>>> Navigator 의 Screen 을 Component 가 아닌 다른 Navigator 로 선언하는 것,
+>>>
+>>> 주로 Presentation 을 다르게 선언하거나, 
+>>> 조건에 따라 Navigator 의 분기가 필요할때 사용
 >>> ```
   
