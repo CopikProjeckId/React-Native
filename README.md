@@ -19,9 +19,11 @@ Side Projact 를 위한 React Native 학습
 >>> Screen: View drawing Component  
 >>> ------------
 >>> Navigator 종류
->>>> 1. Stack Navigator :  
->>>>>    Stack 과 동일한 자료 구조로 화면을 그리는 Navigator  
->>>>>    제일 마지막에 들어온 화면이 제일 먼저 없어짐  
->>>>>    React-Navigation 에서 필요한 animation 등 은 구현됨  
->>>>>    JavaScript 로 작성, 자유도 높음  
->>>>>    Native Stack Navigator : Native <java or Kotlin> 작성 자유도 낮음  
+>>>> Stack Navigator :  
+>>>> ```
+>>>>    Stack 과 동일한 자료 구조로 화면을 그리는 Navigator  
+>>>>    제일 마지막에 들어온 화면이 제일 먼저 없어짐  
+>>>>    React-Navigation 에서 필요한 animation 등 은 구현됨  
+>>>>    JavaScript 로 작성, 자유도 높음  
+>>>>    Native Stack Navigator : Native <java or Kotlin> 작성 자유도 낮음  
+>>>> ```
