@@ -137,6 +137,20 @@ Side Projact 를 위한 React Native 학습
 >>> Component 에 (암시적으로 상태를 공유하는)  
 >>> 선언적 Sub Component API를 제공하는 방법이다.
 >>>```
+>>> ### Functional Component 와 Class Component 의 동작과정
+>>>```
+>>> Class Component : 
+>>> 1. new Class() = instance 생성
+>>> 2. class 내부 render Method 호출
+>>> 
+>>> class call != render
+>>> ______________________
+>>> 
+>>> Functional Component : 
+>>> component 생성 관련 작업시 매번 호출하여 렌더링
+>>>
+>>> function call == render
+>>>```
 *****
 ## React Hook
 > ### React Hook 이란?
@@ -158,6 +172,10 @@ Side Projact 를 위한 React Native 학습
 > 주로 Dumb Component 활용 되었으나
 > hook 등장 으로 주목 받기 시작함
 > 
+> 사용 방식은 다음과 같다.
+>
+> import Name from './component';
+>
 > ```
 >  
 > ### Hook 탄생 이유
@@ -167,7 +185,13 @@ Side Projact 를 위한 React Native 학습
 >    & 유지보수 난이도 상승
 > 3. Class 는 혼동되기 쉽다.
 > ```
-
+>  
+> ### Hook 사용 규칙
+> ```
+> 1. 모든 Hook 은 사용시 함수 최상단에서 호출하여야함
+> 
+> ```
+>  
 *****
 > ## 기타
 > [Ionicons](https://ionic.io/ionicons)
