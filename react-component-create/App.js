@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { Header } from './src/components/Molcule/Header/Header';
 import { HeaderWithoutCompound } from './src/components/Molcule/HeaderWithoutCompound';
 
 
@@ -8,7 +9,19 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <View style={{flex: 1}}>
-        <HeaderWithoutCompound title='HEADER' ></HeaderWithoutCompound>
+        {/* <HeaderWithoutCompound title='HEADER' ></HeaderWithoutCompound> */}
+        <Header>
+          <Header.Group>
+            <Header.Icon IconName='arrow-back' onPress = {() => {
+              console.log('back');
+            }}></Header.Icon>
+          </Header.Group>
+          
+          <Header.Title title='HEADER'></Header.Title>
+          <Header.Icon IconName='close'onPress = {() => {
+              console.log('close');
+            }}></Header.Icon>
+        </Header>
       </View>
     </SafeAreaProvider>
   );

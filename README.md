@@ -137,9 +137,28 @@ Side Projact 를 위한 React Native 학습
 >>> Component 에 (암시적으로 상태를 공유하는)  
 >>> 선언적 Sub Component API를 제공하는 방법이다.
 >>>```
-
-
-
+*****
+## React Hook
+> ### React Hook 이란?
+>
+>```
+>- React 16.8 Version 에서 새로 소개되었으며,
+>- funstional component 에서도 state 와
+>  다른 side Effect 를 다루기 위해 탄생되었다.
+>```
+>  
+> ### Functional Component  
+> ```
+> export default () => {
+>  Component Code 
+> }
+> 
+> 위 와 같이 function 형식 으로 작성되는 Component
+> hook 탄생 이전에는 state 를 가질 수 없었기에
+> 주로 Dumb Component 활용 되었으나
+> hook 등장 으로 주목 받기 시작함
+> 
+> ```
 
 *****
 > ## 기타
