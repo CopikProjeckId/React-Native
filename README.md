@@ -167,6 +167,12 @@ Side Projact 를 위한 React Native 학습
 >  Component Code 
 > }
 > 
+> ||
+> 
+> export default FunctionName = () => {
+> 
+> }
+> 
 > 위 와 같이 function 형식 으로 작성되는 Component
 > hook 탄생 이전에는 state 를 가질 수 없었기에
 > 주로 Dumb Component 활용 되었으나
@@ -175,6 +181,10 @@ Side Projact 를 위한 React Native 학습
 > 사용 방식은 다음과 같다.
 >
 > import Name from './component';
+>
+> ||
+>
+> import { Name } from './component';
 >
 > ```
 >  
@@ -188,10 +198,54 @@ Side Projact 를 위한 React Native 학습
 >  
 > ### Hook 사용 규칙
 > ```
-> 1. 모든 Hook 은 사용시 함수 최상단에서 호출하여야함
-> 
+> 1. 모든 Hook 은 사용시 함수 최상단에서 호출 하여야함
+> 2. React Function 에서만 Hook 을 호출 하여야함
+>
+> - Hook Logic -
+> 1. First Render -> index CURSOR = 0;
+> - CURSOR 은 Hook 의 index 값 자동 지정
+>
+> 2. Hook call & Hook SET = CURSOR++;
+>
+> 3. Hook 조건부 Call 진행시 미실행 되면 CURSOR 값 역시 추가되지않음
+> - Error 로 이어질 수 있으므로 사용시 주의
 > ```
->  
+>   
+>> ## 자주 사용하는 Hook
+>> ```
+>> 1. useWindowDimensions() : 화면의 Window, height 를 체크시 활용
+>>
+>> 2. useBackHandler(()=>{ return bool }) : android 상 back key 입력시 호출되는 function 을 관리
+>> - true : 해당 component 에서 핸들링
+>> - false : 다른 component 에서 처리
+>>
+>> 3. useAppState() : 해당 App의 상태값 반환
+>> - Active : 앱이 foreground에서 실행 중이며 이벤트를 받았을 수 있는 상태
+>> - Background : 앱이 사용중에 다른 앱을 실행하거나 홈 화면으로 나갔을 때 상태
+>> - Inactive : 앱이 foreground 상태이기는 하나 이벤트를 받지 못한 상태 (only IOS)
+>>
+>> 2~3 - install Library : @react-native-community/hooks
+>> ______________
+>>
+>> React-navigation-hook
+>>
+>> 1. useNavigation, useRoute : 
+>>    props 에 들어있는 Navigation Prop 과 Route Prop 에 접근 할 수 있다.
+>>
+>> 2. useIsFocused, useFocusEffect : Focus Check
+>> - useIsFocused : Boolean 값 리턴
+>> - useFocusEffect : Focus 되었을 때 callback 처리
+>>
+>> 3. useScrollToTop : ScrollView 를 최상단으로 올릴 때 사용
+>>
+>> ______________
+>>
+>> react-use : npm package - hook
+>>
+>> useMount : Component 가 mount 된 시점에 callback 호출
+>>  
+>> usePrevious : state 의 이전 값을 알아내고자 할때 사용
+>> ```
 *****
 > ## 기타
 > [Ionicons](https://ionic.io/ionicons)
