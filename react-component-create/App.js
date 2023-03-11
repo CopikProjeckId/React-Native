@@ -1,15 +1,39 @@
 import { StatusBar } from 'expo-status-bar';
+import { useCallback, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Button from './src/components/atom/Button';
+import Typography from './src/components/atom/Typography';
+import { HookTestComponent } from './src/components/HookTestComponent';
 import { Header } from './src/components/Molcule/Header/Header';
 
 export default function App() {
+  const [a, setA] = useState(0);
+  const [b, setB] = useState(0);
+
+  const sum = useCallback(() => {
+    return (a+b);
+  }, [a, b]);
+
   return (
     <SafeAreaProvider>
       <View style={{flex: 1}}>
         <Header>
           <Header.Title title ='HEADER'></Header.Title>
         </Header>
+
+        <View style={{alignItems : 'center', justifyContent :"center"}}>
+          <HookTestComponent a={a} b={b}></HookTestComponent>
+          
+          <Typography>callback 값 : {sum()}</Typography>
+          
+          <Button onPress={()=>{
+            console.log('press');
+            setA(a+1);
+          }}>
+            <Typography>A 더하기</Typography>
+          </Button>
+        </View>
       </View>
     </SafeAreaProvider>
   );
