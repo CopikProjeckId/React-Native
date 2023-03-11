@@ -246,6 +246,42 @@ Side Projact 를 위한 React Native 학습
 >>  
 >> usePrevious : state 의 이전 값을 알아내고자 할때 사용
 >> ```
+
+>> ## 최적화를 위한 Memoization
+>> ```
+>> Functional Component 는 Function Call 이 안됨
+>> Function Call : render();
+>>
+>> Functional Component call 하며 생긴 함수 내부의 
+>> 변수,함수 모두 신규 호출시 새로 할당
+>> 
+>> ______________
+>> 
+>> 
+>> Memoization : 기존 수행 연산값을 data 에 저장 후
+>> - 입력값이 동일할 시 재활용 하는것
+>>
+>> == HOOK == 
+>> 
+>> 1. useMemo(()=>{}, []) : 
+>> 첫 번째 인자 : 기억할 값을 리턴 해 주는 함수
+>> 두 번째 인자 : dependency Array
+>>
+>> EX ) const variableA = useMemo(()=>{
+>>            return props.a + props.b
+>>      }, [props.a, props.b]) 
+>>      
+>>      // props.a == 1 & props.b == 1 => props.a == 1 & props.b == 2 
+>>      // 위와 같이 변경될시 re rendering
+>>
+>>      값 변경시 즉시 확인하기 위한 사용
+>>
+>> 2. useCallback(()=>{}, []) : 함수를 저장
+>> 첫 번째 인자 : 기억할 함수를 리턴 해 주는 함수
+>> 두 번째 인자 : dependency Array 
+>>
+>> ```
+
 *****
 > ## 기타
 > [Ionicons](https://ionic.io/ionicons)
