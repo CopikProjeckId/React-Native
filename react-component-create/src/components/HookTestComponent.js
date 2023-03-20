@@ -8,7 +8,7 @@ export const HookTestComponent = (props) => {
     }, [props.a, props.b])
     return (
         <View>
-            <Typography>
+            <Typography fontSize = {14}>
                 결과 값은 : {text}
             </Typography>
         </View>
