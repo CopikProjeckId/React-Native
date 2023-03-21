@@ -285,3 +285,10 @@ Side Projact 를 위한 React Native 학습
 *****
 > ## 기타
 > [Ionicons](https://ionic.io/ionicons)
+
+>> ### 첫번째 예제 프로젝트 WALLPAPER
+>>> ## 사용된 라이브러리
+>>>> 1. react-navigation/native
+>>>> 2. react-navigation/native-stack
+>>>> 3. react-navigation/bottom-tabs
+>>>> 4. expo/vector-icons & prop-types
